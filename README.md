@@ -7,7 +7,7 @@ allinoneディレクトリは、OpenDaylightとOpenStackが同一ホストで構
 
 externalodlディレクトリは、OpenDaylightとOpenStackが異なるホストで構成される場合の設定ファイルが格納されています。
 
-それぞれのディレクトリ内のsingle-nodeとmulti-nodeディレクトリはOpenStackがシングルノード構成であるか、またはコントローラノード（＋ネットワークノード）とコンピュートノードのマルチノード構成であるかを表しています。
+各ディレクトリ内のsingle-nodeとmulti-nodeディレクトリは、それぞれOpenStackがシングルノード構成であるか、またはコントローラノード（＋ネットワークノード）とコンピュートノードのマルチノード構成であるかを表しています。
 
 ## local.conf使用上の注意
 この設定ファイルを使用するにはそれぞれのlocal.conf内のHOST_IPおよびSERVICE_HOSTをお使いの環境に合わせて変更して下さい。
