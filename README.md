@@ -11,3 +11,8 @@ externalodlディレクトリは、OpenDaylightとOpenStackが異なるホスト
 
 ## local.conf使用上の注意
 この設定ファイルを使用するにはそれぞれのlocal.conf内のHOST_IPおよびSERVICE_HOSTをお使いの環境に合わせて変更して下さい。
+
+##アップデート
+
+- 2016/04/18 
+  - ODLのバージョンをSNAPSHOTからRS4に修正。
