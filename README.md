@@ -15,4 +15,4 @@ externalodlディレクトリは、OpenDaylightとOpenStackが異なるホスト
 ##アップデート
 
 - 2016/04/18 
-  - ODLのバージョンをSNAPSHOTからRS4に修正。
+  - ODLのバージョンをSNAPSHOTからSR4に修正。
