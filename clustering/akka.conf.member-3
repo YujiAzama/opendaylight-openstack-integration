@@ -3,15 +3,15 @@ odl-cluster-data {
   akka {
     remote {
       netty.tcp {
-        hostname = "192.168.0.14"
+        hostname = "192.168.0.13"
         port = 2550
       }
     }
 
     cluster {
-      seed-nodes = ["akka.tcp://opendaylight-cluster-data@192.168.0.12:2550",
-                    "akka.tcp://opendaylight-cluster-data@192.168.0.13:2550",
-                    "akka.tcp://opendaylight-cluster-data@192.168.0.14:2550"]
+      seed-nodes = ["akka.tcp://opendaylight-cluster-data@192.168.0.11:2550",
+                    "akka.tcp://opendaylight-cluster-data@192.168.0.12:2550",
+                    "akka.tcp://opendaylight-cluster-data@192.168.0.13:2550"]
 
       roles = [
         "member-3"
@@ -59,7 +59,7 @@ odl-cluster-rpc {
     remote {
       log-remote-lifecycle-events = off
       netty.tcp {
-        hostname = "192.168.0.14"
+        hostname = "192.168.0.13"
         port = 2551
         maximum-frame-size = 419430400
         send-buffer-size = 52428800
@@ -68,9 +68,9 @@ odl-cluster-rpc {
     }
 
     cluster {
-      seed-nodes = ["akka.tcp://odl-cluster-rpc@192.168.0.12:2551",
-                    "akka.tcp://odl-cluster-rpc@192.168.0.13:2551",
-                    "akka.tcp://odl-cluster-rpc@192.168.0.14:2551"]
+      seed-nodes = ["akka.tcp://odl-cluster-rpc@192.168.0.11:2551",
+                    "akka.tcp://odl-cluster-rpc@192.168.0.12:2551",
+                    "akka.tcp://odl-cluster-rpc@192.168.0.13:2551"]
       auto-down-unreachable-after = 300s
     }
   }
